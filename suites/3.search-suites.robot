@@ -3,8 +3,6 @@ Resource    ../pageObjects//base/base.robot
 Resource    ../pageObjects/homePageObject/homePage.robot
 Resource    ../pageObjects/loginPageObject/loginPage.robot
 Resource    ../pageObjects/Search/Search.robot
-Test Setup       Open Flight Application
-Test Teardown    Close Flight Application
 
 *** Test Cases ***
 Successfully Open Flight Application
@@ -25,3 +23,4 @@ Search Scenario - Valid Flight Number
     Input Valid Flight Number
     Click Search Button
     Valid Flight Number
+    Close Flight Application
