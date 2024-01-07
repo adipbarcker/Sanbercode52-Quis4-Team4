@@ -1,0 +1,4 @@
+enterFlightNumberText: //android.widget.TextView[@resource-id="com.example.myapplication:id/enterFlight"]
+flightNumberSearch: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+searchFlightNumberButton: com.example.myapplication:id/searchFlight
+da935 : //android.widget.TextView[@text="DA 935"]
