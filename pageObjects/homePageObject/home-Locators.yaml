@@ -1,0 +1,6 @@
+sign-in-button: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+appLogo: //android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]
+searchButton: //android.widget.Button[@resource-id="com.example.myapplication:id/button6" and @text="Search"]
+checkinButton: //android.widget.Button[@resource-id="com.example.myapplication:id/button6" and @text="Check in"]
+bookButton: //android.widget.Button[@resource-id="com.example.myapplication:id/button5" and @index="5"]
+ngendigitText: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
