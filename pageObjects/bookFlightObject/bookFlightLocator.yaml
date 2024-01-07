@@ -1,0 +1,25 @@
+appLogo: //android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]
+oneWayActionBar: //android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]
+roundTripActionBar: //android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]
+fromCitySpinner: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
+toCitySpinner: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
+classSpinner: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
+
+startDateTextView: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
+endDateTextView: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
+
+datePicker: //android.widget.DatePicker[@resource-id="android:id/datePicker"]
+StartDatePicker: //android.view.View[@content-desc="01 August 2019"]
+EndDatePicker: //android.view.View[@content-desc="02 August 2019"]
+okButtonDatePicker: //android.widget.Button[@resource-id="android:id/button1"]
+
+flightRadioButton: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
+flightHotelRadioButton: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]
+oneDayCheckBox: //android.widget.CheckBox[@resource-id="com.example.myapplication:id/checkBoxDay"]
+bookFlightButton: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+
+
+priceButton: //android.widget.Button[@resource-id="com.example.myapplication:id/price9"]
+priceConfirmButton: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+
+yourFlightIsBooked: com.example.myapplication:id/checkedTextView
