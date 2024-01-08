@@ -10,6 +10,13 @@ Select From City New York
     Click Text    New York
     Element Should Contain Text    //android.widget.TextView[@text="New York"]    New York  
 
+Select From City Chicago
+    Wait Until Element Is Visible    ${fromCitySpinner}
+    Click Element    ${fromCitySpinner}
+    Wait Until Element Is Visible    //android.widget.TextView[@text="Chicago"]
+    Click Text    Chicago
+    Element Should Contain Text    //android.widget.TextView[@text="Chicago"]    Chicago  
+
 Set To City London
     Wait Until Element Is Visible    ${toCitySpinner}
     Click Element    ${toCitySpinner}
