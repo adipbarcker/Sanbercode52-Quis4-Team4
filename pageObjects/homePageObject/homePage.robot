@@ -22,7 +22,7 @@ Click Button Search
     Wait Until Page Contains     Search
     Click Text                   Search
 
-Click Button Book
+Click Menu Book
     Wait Until Page Contains    Book
     Click Text    Book
 
