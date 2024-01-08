@@ -3,6 +3,13 @@ Resource        ../base/base.robot
 Variables       bookFlightLocator.yaml
 
 *** Keywords ***
+Select Round Trip Button
+    Wait Until Element Is Visible    ${roundTripActionBar}
+    Click Element    ${roundTripActionBar}
+    Wait Until Element Is Visible    //android.widget.TextView[@text="ROUND TRIP"]
+    Click Text    ROUND TRIP
+    Element Should Contain Text    //android.widget.TextView[@text="ROUND TRIP"]    ROUND TRIP
+
 Select From City New York
     Wait Until Element Is Visible    ${fromCitySpinner}
     Click Element    ${fromCitySpinner}
