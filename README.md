@@ -9,5 +9,6 @@
 
 ## Record Test Case  
 1. [Login](https://drive.google.com/file/d/1D17U_m0CX-A5TtZZxu6d5llmRn3rsq7c/view?usp=sharing)
-2. 
+2. [Search](https://drive.google.com/file/d/19hHuwlOHi_Q0WBYKxHIpHsjhmy90hbjd/view?usp=sharing)
+3. 
 
