@@ -35,7 +35,7 @@ Case 2 (Positive): Chicago -> Paris - Business Class - Only Flight
     Click Price Confirm
     Book Successfully
 
-Case 2 (Positive): Chicago -> London - First Class - Flight - Click CheckBox
+Case 3 (Positive): Chicago -> London - First Class - Flight - Click CheckBox
     Click Menu Book
     Select Round Trip Button
     Select From City Chicago
@@ -50,7 +50,7 @@ Case 2 (Positive): Chicago -> London - First Class - Flight - Click CheckBox
     Click Price Confirm
     Book Successfully
 
-Case 3 (Positive): Chicago -> London - Business Class - Flight + Hotel
+Case 4 (Positive): Chicago -> London - Business Class - Flight + Hotel
     Click Menu Book
     Select Round Trip Button
     Select From City Chicago
@@ -64,7 +64,7 @@ Case 3 (Positive): Chicago -> London - Business Class - Flight + Hotel
     Click Price Confirm
     Book Successfully
 
-Case 4 (Positive): Chicago -> Paris - Economy Class - Flight + Hotel
+Case 5 (Positive): Chicago -> Paris - Economy Class - Flight + Hotel
     Click Menu Book
     Select Round Trip Button
     Select From City Chicago
