@@ -6,4 +6,3 @@
 5. One way Toronto - Lanrio  
 6. Round Trip  New York - Topaz  
 7. Round Trip  Chicago - Syaiban  
-8. Record - Mega
