@@ -1,6 +1,6 @@
 *** Settings ***
 Resource        ../base/base.robot
-Variables        home-locators.yaml
+Variables        homeLocators.yaml
 
 *** Keywords ***
 Click Sign In Button on Home Page

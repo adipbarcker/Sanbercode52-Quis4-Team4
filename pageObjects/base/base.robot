@@ -8,6 +8,7 @@ ${PLATFORM_VERSION}      9.0
 ${DEVICE_NAME}           emulator-5554
 ${APP_PACKAGE}           com.example.myapplication
 ${APP_ACTIVITY}          com.example.myapplication.MainActivity
+${AUTOMATION_NAME}       UiAutomator2
 
 *** Keywords ***
 Open Flight Application
@@ -17,6 +18,6 @@ Open Flight Application
     ...                 deviceName=${DEVICE_NAME}
     ...                 appPackage=${APP_PACKAGE} 
     ...                 appActivity=${APP_ACTIVITY}  
-    
+    ...                 automationName=${AUTOMATION_NAME}
 Close Flight Application
     Close Application

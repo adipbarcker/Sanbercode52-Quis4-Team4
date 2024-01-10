@@ -1,6 +1,6 @@
 *** Settings ***
 Resource         ../base/base.robot
-Variables        login-locators.yaml
+Variables        loginLocators.yaml
 
 *** Keywords ***
 Input Username on login Page

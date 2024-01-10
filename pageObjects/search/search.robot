@@ -1,6 +1,6 @@
 *** Settings ***
 Resource        ../base/base.robot
-Variables       search-locator.yaml
+Variables       searchLocator.yaml
 
 *** Keywords ***
 Input Invalid Flight Number
