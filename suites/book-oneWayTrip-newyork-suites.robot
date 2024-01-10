@@ -14,12 +14,23 @@ Test Teardown    Close Flight Application
 *** Test Cases ***
 # ONE WAY FROM NEWYORK (Mega Trisna Wulandari)
 
-Case 1 (Negative): Booking tanpa memilih city, flight class, date, dan harga
+Case 1 (Negative): Booking tanpa memilih city, flight class, date, flight type dan harga
     Click Menu Book
     Click Book Confirm
     Click Price Confirm
+    Book Successfully
 
-Case 2 (Positive): New York -> London - Economy Class - Only Flight 
+Case 2 (Negative): Booking Newyork -> London, tanpa memilih date dan flight type, with CheckBox
+    Click Menu Book
+    Select From City New York
+    Set To City London
+    Set Economy Class
+    Set OneDay CheckBox
+    Click Book Confirm
+    Click Price Confirm
+    Book Successfully
+
+Case 3 (Positive): New York -> London - Economy Class - Only Flight - With CheckBox
     Click Menu Book
     Select From City New York
     Set To City London
@@ -33,7 +44,7 @@ Case 2 (Positive): New York -> London - Economy Class - Only Flight
     Click Price Confirm
     Book Successfully
     
-Case 3 (Positive): New York -> Paris - First Class - Only Flight 
+Case 4 (Positive): New York -> Paris - First Class - Only Flight - With CheckBox
     Click Menu Book
     Select From City New York
     Set To City Paris
@@ -47,7 +58,7 @@ Case 3 (Positive): New York -> Paris - First Class - Only Flight
     Click Price Confirm
     Book Successfully
 
-Case 4 (Positive): New York -> Ottawa - Business Class - Only Flight 
+Case 5 (Positive): New York -> Ottawa - Business Class - Only Flight - No CheckBox
     Click Menu Book
     Select From City New York
     Set To City Ottawa
@@ -55,16 +66,29 @@ Case 4 (Positive): New York -> Ottawa - Business Class - Only Flight
     Set Start Date
     Set End Date
     Set Flight RadioButton
+    Click Book Confirm
+    Select Price
+    Click Price Confirm
+    Book Successfully
+
+Case 6 (Positive): New York -> London - First Class - Flight+Hotel - With CheckBox 
+    Click Menu Book
+    Select From City New York
+    Set To City London
+    Set First Class
+    Set Start Date
+    Set End Date
+    Set Flight And Hotel RadioButton
     Set OneDay CheckBox
     Click Book Confirm
     Select Price
     Click Price Confirm
     Book Successfully
 
-Case 5 (Positive): New York -> London - Economy Class - Flight+Hotel - No OneDay CheckBox 
+Case 7 (Positive): New York -> London - Business Class - Flight+Hotel - No CheckBox 
     Click Menu Book
     Select From City New York
-    Set To City Ottawa
+    Set To City London
     Set Business Class
     Set Start Date
     Set End Date
@@ -73,8 +97,3 @@ Case 5 (Positive): New York -> London - Economy Class - Flight+Hotel - No OneDay
     Select Price
     Click Price Confirm
     Book Successfully
-
-
-
-
-    
