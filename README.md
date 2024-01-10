@@ -10,7 +10,7 @@
 ## Record Test Case  
 1. [Login](https://drive.google.com/file/d/1D17U_m0CX-A5TtZZxu6d5llmRn3rsq7c/view?usp=sharing)
 2. [Search](https://drive.google.com/file/d/19hHuwlOHi_Q0WBYKxHIpHsjhmy90hbjd/view?usp=sharing)
-3. 
+3. [One Way Newyork](https://drive.google.com/drive/folders/1Kb9s7YT0tU3dLrkunh8pWWLuXbALpQVV)
 4. [One Way Chicago](https://drive.google.com/file/d/1bzjSOE6T2mWBrJ5ibzGrXYqSEtSISJO_/view?usp=sharing)
 5. 
 6. 
