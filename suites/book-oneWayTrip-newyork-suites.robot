@@ -97,9 +97,3 @@ Case 7 (Positive): New York -> London - Business Class - Flight+Hotel - No Check
     Select Price
     Click Price Confirm
     Book Successfully
-
-
-
-
-
-    
